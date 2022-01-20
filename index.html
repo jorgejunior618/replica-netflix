@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  
+  <!-- OWL COAROUSEL -->
+  <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
   <title>Replica Netflix</title>
 </head>
 <body>
@@ -25,21 +30,75 @@
         <p class="descricao">
           Thomas Shelby e seus irmãos retornam a Birmingham depois de servir no exército britânico durante a Primeira Guerra Mundial. Os Peaky Blinders, a gangue na qual Thomas é líder, controlam a cidade de Birmingham. Mas, como as ambições de Shelby se estendem para além de Birmingham, ele planeja construir o império de negócios que criou e impedir qualquer um que atrapalhar.
         </p>
-      </div>
 
-      <div class="botoes">
-        <button class="button">
-          <i class="fas fa-play"></i>
-          Assistir Agora
-        </button>
-        
-        <button class="button">
-          <i class="fas fa-info-circle"></i>
-          Mais Informações
-        </button>
+        <div class="botoes">
+          <button
+            class="button"
+            onclick="enviarParaNetflix()"
+          >
+            <i class="fas fa-play"></i>
+            Assistir Agora
+          </button>
+  
+          <button
+            class="button"
+            onclick="enviarParaNetflix()"
+          >
+            <i class="fas fa-info-circle"></i>
+            Mais Informações
+          </button>
+        </div>
       </div>
     </div>
   </main>
+
+  <section class="carousel-filmes container">
+    <h3>Em alta</h3>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="assets/img/min0.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min1.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min2.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min3.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min4.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min5.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min6.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min7.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min8.jpg" alt="">
+      </div>
+      
+      <div class="item">
+        <img class="box-filme" src="assets/img/min9.jpg" alt="">
+      </div>
+  </div>
+  </section>
+
+  <script src="assets/scripts/owl/jquery.min.js"></script>
+  <script src="assets/scripts/owl/owl.carousel.min.js"></script>
   <script src="assets/scripts/index.js"></script>
   <script src="https://kit.fontawesome.com/177407f211.js" crossorigin="anonymous"></script>
 </body>

@@ -23,7 +23,14 @@ body {
   font-family: Helvetica,Arial,sans-serif;
 }
 
+.container {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 header .container {
+  padding-top: 8px;
+  padding-bottom: 4px;
   display: flex;
   align-items: center;
   justify-content: space-between ;
@@ -69,14 +76,13 @@ main .serie-principal {
   font-size: 14px;
   background:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)100%), url("/assets/img/peaky-background.jpg");
 
-  height: 60%;
+  height: 70vh;
   background-size: cover;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  position: absolute;
 }
 
 main .serie-principal .descricao {
@@ -84,7 +90,25 @@ main .serie-principal .descricao {
 }
 
 main .serie-principal .titulo {
-  margin-top: 5%;
+  margin-top: 10%;
   font-size: 36px;
   margin-bottom: 12px;
+}
+
+main .serie-principal .container {
+  max-width: 60%;
+}
+
+.carousel-filmes {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.carousel-filmes h3 {
+  margin-bottom: 12px;
+}
+.carousel-filmes .box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
