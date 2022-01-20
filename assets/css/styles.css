@@ -112,3 +112,14 @@ main .serie-principal .container {
   width: 100%;
   display: block;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--cor-texto); 
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb :hover {
+  box-shadow: inset 0 0 5px var(--cor-texto); 
+}
